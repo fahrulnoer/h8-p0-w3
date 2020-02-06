@@ -4,9 +4,9 @@
 function tentukanDeretAritmatika(arr) {
     // you can only write your code here!
     var aritmatika = true;
-    var gap = Math.abs(arr[0] - arr[1]);
+    var num = Math.abs(arr[0] - arr[1]);
     for (var i = 1; i < arr.length - 1 && aritmatika === true; i++) {
-        if (gap !== Math.abs(arr[i] - arr[i+1])) {
+        if (num !== Math.abs(arr[i] - arr[i+1])) {
             aritmatika = false;
         }
     }

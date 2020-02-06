@@ -13,4 +13,4 @@ function balikString(word) {
     return reverse
 }
 
-console.log(balikString('Hello world!'));
+console.log(balikString('Hello world!')); // "!dlrow olleh"

@@ -3,7 +3,6 @@
 
 function angkaPalindrome(num) {
     // you can only write your code here!
-    // https://t4tutorials.com/palindrome-number-program-in-javascript/
   var kata = "";
   num++;
   while(true){

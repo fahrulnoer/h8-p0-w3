@@ -5,9 +5,9 @@ function hitungJumlahKata(kalimat) {
     // you can only write your code here!
     var jumlah = 0
     for (var i = 0; i < hitungJumlahKata.length; i++)
-        if (kalimat[i] === " ") { // if a space is found in kalimat
+        if (kalimat[i] === " ") {
             jumlah = +1;
-    }
+        }
     jumlah += 1;
     return kalimat.split(" ").length;
 }

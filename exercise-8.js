@@ -11,9 +11,8 @@ function pasanganTerbesar(num) {
     for (i = 0; i < numstring.length - 1; i++) {
       numstring2 = numstring[i] + numstring[i + 1];
       numarray.push(Number(numstring2));
-      
     }
-
+    
     for (i = 0; i < numarray.length; i++) {
       if (numarray[i] > numarray2) {
         numarray2 = numarray[i];

@@ -5,7 +5,6 @@ function perkalianUnik(arr) {
     // you can only write your code here!
   var multiply = 0
   var result = []
-  // iterasi angka yang dijalankan dan tidak akan dikali
   for (i = 0 ; i < arr.length ; i++){
     multiply = 1
     for (j = 0 ; j < arr.length ; j++){
