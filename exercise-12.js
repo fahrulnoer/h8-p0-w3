@@ -7,7 +7,7 @@ function tentukanDeretGeometri(arr) {
     var correct= 0;
     if(arr[0] <  arr[1]){
         for(var a = 0; a < (arr.length - 1); a++){
-            difference +=arr[a+1]/arr[a];
+            difference +=arr[a + 1]/arr[a];
             if(difference.length > 1 && difference[a] === difference[a - 1]){
                 correct += 1;
             }

@@ -3,17 +3,17 @@
 
 function perkalianUnik(arr) {
     // you can only write your code here!
-  var multipli
+  var multiply = 0
   var result = []
   // iterasi angka yang dijalankan dan tidak akan dikali
   for (i = 0 ; i < arr.length ; i++){
-    multipli = 1
+    multiply = 1
     for (j = 0 ; j < arr.length ; j++){
       if(i != j){
-        multipli = multipli * arr[j]
+        multiply = multiply * arr[j]
       }
     }
-    result.push(multipli)
+    result.push(multiply)
   }
   return result
 }
