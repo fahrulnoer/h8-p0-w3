@@ -22,10 +22,10 @@ function targetTerdekat(arr) {
 
     var jarak = []
     for (var j = 0; j < target2.length; j++){      
-        jarak[j] = Math.abs(target2[j]-target1)
+        jarak[j] = Math.abs(target2[j] - target1)
     }
 
-    var hasil = jarak.sort(function(a,b){return a-b})
+    var hasil = jarak.sort(function(a,b){return a - b})
     return hasil[0]
 }
   
