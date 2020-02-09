@@ -3,24 +3,21 @@
 
 function groupAnimals(animals) {
     // you can only write your code here!
-    var group = []
-    for (var i = 0; i < animals.length ; i++){
-        var group1 = []
-        for (var j = 0; j < animals.length ;j++){
-            if (animals[i][0] === animals[j][0]){
-                group1.push(animals[j])
-                if(i != j){
-                    animals[j] = ''
-                }
-            }
+    var alphabet = "abcdefghijklmnopqrstuvwxyz"
+    var result = []
+    
+    for(var i = 0; i < alphabet.length; i++){
+      var group = []
+      for(var j = 0; j < animals.length; j++){
+        if(animals[j][0] === alphabet[i]){
+          group.push(animals[j])
         }
-        animals[i] = ''
-        if(group1[0] != ''){
-            group.push(group1)
-        }
+      }
+      if(group.length > 0){
+        result.push(group)
+      }
     }
-    return group.sort(function(a,b){return a > b})
-
+    return result
 }
   
   // TEST CASES
