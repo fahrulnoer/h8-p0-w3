@@ -53,10 +53,10 @@ Hacktiv8 Phase 0 Week 3: Arrays and Logics
 [Question](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/challenge-target-terdekat.md)
 | [Answer](https://github.com/fahrulnoer/h8-p0-w3/blob/master/exercise-13.js)
 
-## Task 14 
+## Task 14 ✔
 [Question](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/challenge-kelompok-angka.md)
 | [Answer](https://github.com/fahrulnoer/h8-p0-w3/blob/master/exercise-14.js)
 
-## Task 15 
+## Task 15 ✔
 [Question](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/challenge-kelompok-hewan.md)
 | [Answer](https://github.com/fahrulnoer/h8-p0-w3/blob/master/exercise-15.js)
